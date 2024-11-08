@@ -157,7 +157,7 @@ section.topo-do-site {
     margin-top: 12vh;
     padding: 40px 4%;
     height: 70vh;
-}titulo
+}
 
 section.topo-do-site .flex {
     align-items: center;
@@ -492,8 +492,8 @@ footer .line-footer p a {
     
 
     h2.titulo {
-        font-size: 34px;
-        line-height: 30px;
+        font-size: 24px;
+        line-height: 25px;
     }
 
     /* CABEÇALHO */
@@ -587,4 +587,22 @@ footer .line-footer p a {
         display: none;
     }
 
+
+    .img-port1,.img-port2,.img-port3,.img-port4,.img-port5,.img-port6 {
+        width: 290px;
+        height: 390px;
+        
+        
+    }
+    
+    .img-de1,.img-de2,.img-de3 {
+        width: 290px;
+        height: 390px;
+        
+        
+    }
+
+    .titulo{
+        font-size: 4px;
+    }
 }
