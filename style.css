@@ -316,22 +316,22 @@ a {
 } 
 
 .img-port1{
-    background-image: url(./images/01LP.png);
+    background-image: url(./images/01LP.webp);
 }
 .img-port2{
-    background-image: url(./images/02AG.png);
+    background-image: url(./images/02AG.webp);
 }
 .img-port3{
-    background-image: url(./images/03TL.png);
+    background-image: url(./images/03TL.webp);
 }
 .img-port4{
-    background-image: url(./images/04JM.png);
+    background-image: url(./images/04JM.webp);
 }
 .img-port5{
-    background-image: url(./images/05MC.png);
+    background-image: url(./images/05MC.webp);
 }
 .img-port6{
-    background-image: url(./images/06LG.png);
+    background-image: url(./images/06LG.webp);
 }
 
 .img-port:hover {
@@ -341,19 +341,19 @@ a {
 
 
 .img-de1{
-    background-image: url(./images/01de.png);
+    background-image: url(./images/01de.webp);
 }
 .img-de2{
-    background-image: url(./images/02de.png);
+    background-image: url(./images/02de.webp);
 }
 .img-de3{
-    background-image: url(./images/03de.png);
+    background-image: url(./images/03de.webp);
 }
 
 .img-logo{
     height: 70px;
     width: 70px;
-    background-image: url(./images/computer.png);
+    background-image: url(./images/computer.webp);
     background-size: cover;
 }
 
@@ -475,6 +475,11 @@ footer .line-footer p a {
 
 @media screen and (max-width: 1020px) {
 
+    
+    .txt-topo-site p{
+        width: 400px;
+    }
+
     /* CLASSES GERAIS */
     .flex {
         flex-direction: column;
@@ -483,6 +488,8 @@ footer .line-footer p a {
     .topo-do-site .flex{
         flex-direction: column-reverse;
     }
+
+    
 
     h2.titulo {
         font-size: 34px;
@@ -561,4 +568,23 @@ footer .line-footer p a {
     footer .line-footer {
         text-align: center;
     }
+    
+    .topo-do-site .txt-topo-site p {
+        
+        width: 80vw;
+    }
+
+    .txt-topo-site h1 {
+        
+        margin-top: -60px;
+    }
+
+    .logo{
+        margin-left: 20px;
+    }
+
+    .img-topo-site{
+        display: none;
+    }
+
 }
